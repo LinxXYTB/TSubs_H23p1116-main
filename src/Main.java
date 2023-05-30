@@ -61,8 +61,8 @@ public class Main {
         }
     }
      
-       
- 
+
+
     public static void main(String[] args) {
         // TODOs 11 à 14
         new CalculatriceSwing(); // démarre une calculatrice dont le fonctionnement et l'interface
