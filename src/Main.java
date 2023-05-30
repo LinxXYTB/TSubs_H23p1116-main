@@ -68,7 +68,7 @@ public class Main {
         new CalculatriceSwing(); // démarre une calculatrice dont le fonctionnement et l'interface
                             // sont expliqués dans un clip: https://www.loom.com/share/b92c35aead684f3f872197a0558cb99a
        
-        String fichier = "entrees.txt";  // fichier fourni
+        String fichier = "src/entrees.txt";  // fichier fourni
         // TODO 15
         List<Personne> personnes = lireFichier(fichier); // la classe Personne est fournie
         System.out.println("Données extraites du fichier :");
@@ -79,6 +79,6 @@ public class Main {
             System.out.println();
         }
         // TODO 16
-        ecrireFichier(personnes, "sorties.html"); // exemple fourni
+        ecrireFichier(personnes, "src/sorties.html"); // exemple fourni
     }
 }
